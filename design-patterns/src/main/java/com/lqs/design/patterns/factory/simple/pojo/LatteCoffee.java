@@ -1,0 +1,13 @@
+package com.lqs.design.patterns.factory.simple.pojo;
+
+/**
+ * @author : 李奇凇
+ * @date : 2022/5/16 11:10
+ * @do : 拿铁咖啡
+ */
+public class LatteCoffee extends Coffee{
+    @Override
+    public String getName() {
+        return "拿铁咖啡";
+    }
+}

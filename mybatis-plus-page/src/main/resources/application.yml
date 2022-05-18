@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.56.101:3306/mybatis_page
+    username: root
+    password: lqs
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  mapper-locations: classpath:com/example/mybatispluspage/mapper/*.xml
+
+
+logging:
+  level:
+    com.example.mybatispluspage.mapper:
+      debug
+
