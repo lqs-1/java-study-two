@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326a0f26-272f-42f7-9557-bc42a0faafde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/facede/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/facede/Smart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/facede/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/facede/FacedePatternsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lqs/design/patterns/bridge/computer/Mac.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lqs/design/patterns/bridge/computer/Mac.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/adapter/objectadapter" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lqs/UserData/spring-source/spring-freamwork-master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\page\design-patterns\src\main\java\com\lqs\design\patterns\adapter\objectadapter" />
@@ -67,39 +70,13 @@
       <recent name="com.lqs.design.patterns.factory.factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BridgePatternsTest">
+  <component name="RunManager" selected="Application.FacedePatternsTest">
     <configuration name="BridgePatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.bridge.BridgePatternsTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lqs.design.patterns.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CglibProxyPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.proxy.cglib.CglibProxyPatternsTest" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.proxy.cglib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassAdapterPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.adapter.classadapter.ClassAdapterPatternsTest" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.adapter.classadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FacedePatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.facede.FacedePatternsTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.design.patterns.facede.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObjectAdapterPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.adapter.objectadapter.ObjectAdapterPatternsTest" />
       <module name="design-patterns" />
@@ -133,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Singleton02Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.singleton.Singleton02Test" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.design.patterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacedePatternsTest" />
+        <item itemvalue="Application.Singleton02Test" />
         <item itemvalue="Application.BridgePatternsTest" />
         <item itemvalue="Application.DecoratorPatternsTest" />
         <item itemvalue="Application.ObjectAdapterPatternsTest" />
-        <item itemvalue="Application.ClassAdapterPatternsTest" />
-        <item itemvalue="Application.CglibProxyPatternsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +160,9 @@
       <workItem from="1652585288706" duration="7076000" />
       <workItem from="1652676174936" duration="2703000" />
       <workItem from="1652696748863" duration="9163000" />
+      <workItem from="1652918645449" duration="267000" />
+      <workItem from="1652928738426" duration="1056000" />
+      <workItem from="1652944738663" duration="530000" />
     </task>
     <servers />
   </component>
