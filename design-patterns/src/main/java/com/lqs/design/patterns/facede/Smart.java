@@ -9,7 +9,6 @@ public class Smart {
 
     private Light light;
     private TV tv;
-
     public Smart() {
         this.light = new Light();
         this.tv = new TV();
