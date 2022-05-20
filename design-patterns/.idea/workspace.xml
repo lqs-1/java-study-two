@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326a0f26-272f-42f7-9557-bc42a0faafde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/flyweight/AbstractBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/flyweight/BoxFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/flyweight/IBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/flyweight/LBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/flyweight/OBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/flyweight/FlyweightPatternsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/combination/CombinationPatternsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/combination/CombinationPatternsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/template/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/template/ConcreateClass_BaoCai.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +67,7 @@
       <recent name="com.lqs.design.patterns.factory.factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyweightPatternsTest">
-    <configuration name="BridgePatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.bridge.BridgePatternsTest" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TemplatePatternsTest">
     <configuration name="CombinationPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.combination.CombinationPatternsTest" />
       <module name="design-patterns" />
@@ -139,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplatePatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.template.TemplatePatternsTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.design.patterns.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplatePatternsTest" />
         <item itemvalue="Application.FlyweightPatternsTest" />
         <item itemvalue="Application.CombinationPatternsTest" />
         <item itemvalue="Application.FacedePatternsTest" />
         <item itemvalue="Application.Singleton02Test" />
-        <item itemvalue="Application.BridgePatternsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +160,7 @@
       <workItem from="1652918645449" duration="267000" />
       <workItem from="1652928738426" duration="1056000" />
       <workItem from="1652944738663" duration="5585000" />
-      <workItem from="1653011017790" duration="1987000" />
+      <workItem from="1653011017790" duration="2669000" />
     </task>
     <servers />
   </component>
