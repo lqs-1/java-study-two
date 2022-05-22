@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326a0f26-272f-42f7-9557-bc42a0faafde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/interpreter/AbstractExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/interpreter/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/interpreter/expression/Minus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/interpreter/expression/Plus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/interpreter/expression/Veriable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/memento/GameRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/memento/RoleStateCaretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/interpreter/InterpreterPatternsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/memento/MementoPatternsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lqs/design/patterns/visitor/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lqs/design/patterns/visitor/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/visitor/VisitorPatternsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/visitor/VisitorPatternsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +165,8 @@
       <workItem from="1653125913059" duration="2519000" />
       <workItem from="1653187840061" duration="5337000" />
       <workItem from="1653193221605" duration="1506000" />
-      <workItem from="1653200012754" duration="5959000" />
+      <workItem from="1653200012754" duration="6648000" />
+      <workItem from="1653213548154" duration="169000" />
     </task>
     <servers />
   </component>
