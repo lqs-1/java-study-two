@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326a0f26-272f-42f7-9557-bc42a0faafde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/iterator/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/iterator/StudentAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/iterator/StudentAggregateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/iterator/StudentIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/iterator/StudentIteratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/iterator/IteratorPatternsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/visitor/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/visitor/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/visitor/animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/visitor/animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/visitor/visitor/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/visitor/visitor/SomeOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/visitor/VisitorPatternsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/mediator/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/mediator/Mediator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +69,14 @@
       <recent name="F:\page\design-patterns\src\main\java\com\lqs\design\patterns\factory\factorymethod" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lqs.design.patterns.visitor.visitor" />
+      <recent name="com.lqs.design.patterns.visitor.animal" />
       <recent name="com.lqs.design.patterns.responseibility" />
       <recent name="com.lqs.design.patterns.strategy" />
       <recent name="com.lqs.design.patterns.template" />
-      <recent name="com.lqs.design.patterns.factory.abstractfactoryplus.pojo.coffee" />
-      <recent name="com.lqs.design.patterns.factory.abstractfactory.pojo.coffee" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorPatternsTest">
+  <component name="RunManager" selected="Application.VisitorPatternsTest">
     <configuration name="IteratorPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.iterator.IteratorPatternsTest" />
       <module name="design-patterns" />
@@ -116,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponsibilityPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.responsibility.ResponsibilityPatternsTest" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.responsibility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StatePatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.state.StatePatternsTest" />
       <module name="design-patterns" />
@@ -142,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.visitor.VisitorPatternsTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.design.patterns.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorPatternsTest" />
         <item itemvalue="Application.IteratorPatternsTest" />
         <item itemvalue="Application.MediatorPatternsTest" />
         <item itemvalue="Application.ObserverPatternsTest" />
         <item itemvalue="Application.StatePatternsTest" />
-        <item itemvalue="Application.ResponsibilityPatternsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,8 @@
       <workItem from="1653011017790" duration="7002000" />
       <workItem from="1653125913059" duration="2519000" />
       <workItem from="1653187840061" duration="5337000" />
-      <workItem from="1653193221605" duration="1078000" />
+      <workItem from="1653193221605" duration="1506000" />
+      <workItem from="1653200012754" duration="832000" />
     </task>
     <servers />
   </component>
