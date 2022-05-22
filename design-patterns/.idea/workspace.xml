@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326a0f26-272f-42f7-9557-bc42a0faafde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/template/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/template/ConcreateClass_BaoCai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/observer/SubscriptionSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/observer/WXUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/OrderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/SeniorChef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/Waitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/GroupLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/LiftState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/state/ClosingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/state/OpeningState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/state/RuningState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/state/StopingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/AbstractStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/SaleMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/StrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/StrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/StrategyC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/observer/ObserverPatternsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/order/OrderPatternsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/responsibility/ResponsibilityPatternsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/state/StatePatternsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/strategy/StrategyPatternsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/template/TemplatePatternsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/template/TemplatePatternsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +78,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lqs/UserData/spring-source/spring-freamwork-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lqs/UserData/mall/mall-parent&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -62,18 +92,20 @@
       <recent name="F:\page\design-patterns\src\main\java\com\lqs\design\patterns\factory\factorymethod" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lqs.design.patterns.responseibility" />
+      <recent name="com.lqs.design.patterns.strategy" />
+      <recent name="com.lqs.design.patterns.template" />
       <recent name="com.lqs.design.patterns.factory.abstractfactoryplus.pojo.coffee" />
       <recent name="com.lqs.design.patterns.factory.abstractfactory.pojo.coffee" />
-      <recent name="com.lqs.design.patterns.factory.factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TemplatePatternsTest">
-    <configuration name="CombinationPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.combination.CombinationPatternsTest" />
+  <component name="RunManager" selected="Application.ObserverPatternsTest">
+    <configuration name="ObserverPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.observer.ObserverPatternsTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.combination.*" />
+          <option name="PATTERN" value="com.lqs.design.patterns.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FacedePatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.facede.FacedePatternsTest" />
+    <configuration name="OrderPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.order.OrderPatternsTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.facede.*" />
+          <option name="PATTERN" value="com.lqs.design.patterns.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyweightPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.flyweight.FlyweightPatternsTest" />
+    <configuration name="ResponsibilityPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.responsibility.ResponsibilityPatternsTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.flyweight.*" />
+          <option name="PATTERN" value="com.lqs.design.patterns.responsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton02Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.singleton.Singleton02Test" />
+    <configuration name="StatePatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.state.StatePatternsTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.singleton.*" />
+          <option name="PATTERN" value="com.lqs.design.patterns.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplatePatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.template.TemplatePatternsTest" />
+    <configuration name="StrategyPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.strategy.StrategyPatternsTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.template.*" />
+          <option name="PATTERN" value="com.lqs.design.patterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TemplatePatternsTest" />
-        <item itemvalue="Application.FlyweightPatternsTest" />
-        <item itemvalue="Application.CombinationPatternsTest" />
-        <item itemvalue="Application.FacedePatternsTest" />
-        <item itemvalue="Application.Singleton02Test" />
+        <item itemvalue="Application.ObserverPatternsTest" />
+        <item itemvalue="Application.StatePatternsTest" />
+        <item itemvalue="Application.ResponsibilityPatternsTest" />
+        <item itemvalue="Application.OrderPatternsTest" />
+        <item itemvalue="Application.StrategyPatternsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +192,9 @@
       <workItem from="1652918645449" duration="267000" />
       <workItem from="1652928738426" duration="1056000" />
       <workItem from="1652944738663" duration="5585000" />
-      <workItem from="1653011017790" duration="2669000" />
+      <workItem from="1653011017790" duration="7002000" />
+      <workItem from="1653125913059" duration="2519000" />
+      <workItem from="1653187840061" duration="3439000" />
     </task>
     <servers />
   </component>
@@ -177,5 +211,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/state/StatePatternsTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
