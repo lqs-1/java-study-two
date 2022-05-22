@@ -5,38 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326a0f26-272f-42f7-9557-bc42a0faafde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/observer/SubscriptionSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/observer/WXUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/AbstractCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/OrderCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/SeniorChef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/order/Waitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/GeneralManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/GroupLeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/LeaveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/responseibility/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/LiftState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/state/ClosingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/state/OpeningState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/state/RuningState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/state/state/StopingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/AbstractStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/SaleMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/StrategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/StrategyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/strategy/StrategyC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/observer/ObserverPatternsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/order/OrderPatternsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/responsibility/ResponsibilityPatternsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/state/StatePatternsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/strategy/StrategyPatternsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/mediator/HouseOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/mediator/MediatorStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/mediator/Persion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lqs/design/patterns/mediator/Tenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lqs/design/patterns/mediator/MediatorPatternsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/template/TemplatePatternsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/template/TemplatePatternsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/observer/ObserverPatternsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lqs/design/patterns/observer/ObserverPatternsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +75,20 @@
       <recent name="com.lqs.design.patterns.factory.abstractfactory.pojo.coffee" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObserverPatternsTest">
+  <component name="RunManager" selected="Application.MediatorPatternsTest">
+    <configuration name="MediatorPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.mediator.MediatorPatternsTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.design.patterns.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObserverPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.observer.ObserverPatternsTest" />
       <module name="design-patterns" />
@@ -152,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyPatternsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.design.patterns.strategy.StrategyPatternsTest" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.design.patterns.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorPatternsTest" />
         <item itemvalue="Application.ObserverPatternsTest" />
         <item itemvalue="Application.StatePatternsTest" />
         <item itemvalue="Application.ResponsibilityPatternsTest" />
         <item itemvalue="Application.OrderPatternsTest" />
-        <item itemvalue="Application.StrategyPatternsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +170,7 @@
       <workItem from="1652944738663" duration="5585000" />
       <workItem from="1653011017790" duration="7002000" />
       <workItem from="1653125913059" duration="2519000" />
-      <workItem from="1653187840061" duration="3439000" />
+      <workItem from="1653187840061" duration="4720000" />
     </task>
     <servers />
   </component>
