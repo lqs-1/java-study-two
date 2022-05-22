@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c2299b3-6c52-4034-b9f6-0e548882238d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/utils/TypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/controller/ApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/resources/ApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/BeanDefinitionReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/BeanDefinitionReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/xml/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/xml/XmlBeanDefinitionReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/xml/XmlBeanDefinitionReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lqsSpring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lqs/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lqs/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lqs/bean/LiqisongBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lqs/bean/LiqisongBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lqs/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lqs/Start.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +59,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../source-code/mybatis-3-mybatis-3.5.5" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/lqs/UserData/page/lqsSpring"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lqs.Start" />
@@ -99,6 +109,7 @@
       <workItem from="1652143604522" duration="12000" />
       <workItem from="1652155402081" duration="154000" />
       <workItem from="1652451180060" duration="161000" />
+      <workItem from="1653220186667" duration="1509000" />
     </task>
     <servers />
   </component>

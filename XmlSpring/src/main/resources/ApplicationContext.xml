@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="user" class="com.lqs.test.domain.User">
+        <property name="age" value="20"/>
+        <property name="userName" value="liqisong"/>
+        <property name="passWord" value="123456"/>
+    </bean>
+
+    <bean id="role" class="com.lqs.test.domain.Role">
+        <property name="role" value="管理员"/>
+        <property name="user" ref="user"/>
+    </bean>
+
+
+
+</beans>
