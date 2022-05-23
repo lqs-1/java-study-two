@@ -14,6 +14,7 @@
     </properties>
 
     <dependencies>
+<!--        读取xml配置文件的-->
         <dependency>
             <groupId>dom4j</groupId>
             <artifactId>dom4j</artifactId>
