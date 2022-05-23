@@ -9,10 +9,12 @@ public class TypeConverter {
 
     public static Integer String2Integer(Class classType, String value){
        if (Integer.class.isAssignableFrom(classType)){
-           System.out.println(Integer.parseInt(value));
             return Integer.parseInt(value);
         }
        return null;
+    }
+    private TypeConverter(){
+
     }
 
 

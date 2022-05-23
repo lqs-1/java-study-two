@@ -5,22 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c2299b3-6c52-4034-b9f6-0e548882238d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/utils/TypeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/controller/ApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/resources/ApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XmlSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/BeanDefinitionReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/BeanDefinitionReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/xml/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/xml/XmlBeanDefinitionReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/beans/factory/support/xml/XmlBeanDefinitionReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lqsSpring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/support/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/utils/TypeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/springframework/utils/TypeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/src/main/java/com/lqs/test/controller/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/src/main/resources/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/src/main/resources/ApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/ApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/context/BeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/context/BeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/context/support/AbstractApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/context/support/AbstractApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/context/support/ClassPathXmlApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/context/support/ClassPathXmlApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/utils/TypeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/springframework/utils/TypeConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/test/controller/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlSpring/target/classes/com/lqs/test/controller/ApplicationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,7 @@
       <workItem from="1652143604522" duration="12000" />
       <workItem from="1652155402081" duration="154000" />
       <workItem from="1652451180060" duration="161000" />
-      <workItem from="1653220186667" duration="1509000" />
+      <workItem from="1653220186667" duration="1655000" />
     </task>
     <servers />
   </component>

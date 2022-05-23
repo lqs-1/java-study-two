@@ -13,4 +13,8 @@ public interface BeanFactory {
 
     <T> T getBean(Class<? extends T> classType) throws Exception;
 
+
+    // 获取全部的BeanDefinitionName
+    String[] getBeanDefinitionNames();
+
 }

@@ -41,6 +41,5 @@ public abstract class AbstractApplicationContext implements ApplicationContext {
         for (String beanName : beanNames) {
             getBean(beanName);
         }
-
     }
 }

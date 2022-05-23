@@ -65,8 +65,7 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
                 } else if (value != null && !value.equals("")){
                     // 拼接方法名
                     String setterMethodByFieldName = StringUtils.getSetterMethodByFieldName(propertyName);
-                    //获取method对象
-//                    System.out.println(setterMethodByFieldName);
+                    //获取Field对象
                     Field[] fields = clazz.getDeclaredFields();
                     for (Field field : fields) {
                         field.setAccessible(true);
@@ -125,5 +124,10 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
         }
 
         return (T) bean;
+    }
+
+    @Override
+    public String[] getBeanDefinitionNames() {
+        return this.beanDefinitionReader.getRegistry().getBeanDefinitionNames();
     }
 }
