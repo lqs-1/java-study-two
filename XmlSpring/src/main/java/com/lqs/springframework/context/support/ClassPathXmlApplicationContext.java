@@ -87,9 +87,13 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
 
     @Override
     public <T> T getBean(String beanName, Class<? extends T> classType) throws Exception {
+
         Object bean = getBean(beanName);
+
         if (bean == null){
+
             return null;
+
         }
 
         return classType.cast(bean);
@@ -110,16 +114,26 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
 
         if (bean == null){
             BeanDefinitionRegistry registry = beanDefinitionReader.getRegistry();
+
             String[] beanDefinitionNames = registry.getBeanDefinitionNames();
+
             for (String beanDefinitionName : beanDefinitionNames) {
                 BeanDefinition beanDefinition = registry.getBeanDefinition(beanDefinitionName);
+
                 String className = beanDefinition.getClassName();
+
                 Class<?> clazz = Class.forName(className);
+
                 if (clazz.isAssignableFrom(classType)){
+
                     bean = getBean(beanDefinitionName);
+
                     singletonObjects.put(beanDefinitionName, bean);
+
                     break;
+
                 }
+
             }
         }
 
