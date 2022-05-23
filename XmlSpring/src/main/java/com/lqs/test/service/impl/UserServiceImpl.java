@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void print() {
         System.out.println("userService里面的打印");
-        System.out.println(user);
+        System.out.println(user.getUserName());
         System.out.println("userService打印结束");
     }
 }

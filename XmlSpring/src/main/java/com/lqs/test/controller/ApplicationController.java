@@ -24,7 +24,8 @@ public class ApplicationController {
         UserService bean = app.getBean(UserService.class);
 
         User bean1 = app.getBean(User.class);
-        System.out.println(bean1);
+
+        System.out.println(bean1.getUserName());
 
         bean.print();
     }
