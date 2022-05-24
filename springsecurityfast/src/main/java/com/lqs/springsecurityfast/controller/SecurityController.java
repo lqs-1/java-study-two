@@ -1,10 +1,10 @@
 package com.lqs.springsecurityfast.controller;
 
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.access.prepost.PostAuthorize;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
@@ -38,6 +38,15 @@ public class SecurityController {
     @RequestMapping(value = "loginFail")
     public String loginFail(){
         return "fail";
+    }
+
+    // @Secured("ROLE_abc") // 用在类或者方法上面， 在执行对应的方法或者对应类的方法的时候，先进行权限的判断，这里表示具有这个角色的才能访问，这里的参数只能有一个,且参数必须加上ROLE_
+    @PreAuthorize("hasAuthority('admin') and hasAnyRole('abc')") // 用在类或者方法上面， 在执行对应的方法或者对应类的方法之前进行权限判断， 大多数情况下使用的都是这个注解，这个注解的参数和access方法参数取值相同，都是权限表达式, 如果是角色表达式可以ROLE_xxx，也可以不加ROLE_
+    // @PostAuthorize("hasRole('abc') and hasAuthority('admin')")  // 用在类或者方法上面， 在执行对应的方法或者对应类的方法之后进行权限判断， 很少使用这个注解，这个注解的参数和access方法参数取值相同，都是权限表达式, 如果是角色表达式可以ROLE_xxx，也可以不加ROLE_
+    @RequestMapping("annotation")
+    @ResponseBody
+    public String annotation(){
+        return "hah";
     }
 
 
