@@ -30,6 +30,11 @@ public class SecurityController {
     public void login(){
     }
 
+    @RequestMapping(value = "showLogin")
+    public String login2(){
+        return "login";
+    }
+
     @RequestMapping(value = "loginSuccess")
     public String loginSuccess(){
         return "success";

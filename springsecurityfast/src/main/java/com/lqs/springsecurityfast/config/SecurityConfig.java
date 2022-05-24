@@ -46,7 +46,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .usernameParameter("username") // 自定义前端帐号变量名
                 .passwordParameter("password") // 自定义前端密码变量名
                 .loginProcessingUrl("/st/login") // 当发现/st/login时候认定为登录，必须和表单提交的地址一样，去执行我们的自定义登录逻辑方法,这个/st/login里可以什么也不设置，因为不会走这个逻辑
-                .loginPage("/login.html") // 修改默认的登录页面
+                .loginPage("/st/showLogin") // 修改默认的登录页面
                 /**
                  * 在跳转的时候，失败跳转的时候，需要注意，如果是转发或者重定向到本地的地址，那么就需要放行
                  */
@@ -108,7 +108,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                  * access:上面的所有的权限控制都可以使用access来控制，首先拦截请求url然后执行操作
                  * access里面是一个字符串变量，这个表示的就是符合这个字符串表达式的用户才拥有这个对应url的使用权，如果有多个条件，就用and连接
                  */
-                .antMatchers("/login.html", "/js/**", "/css/**", "/plugins/**", "/images/**", "/st/loginFail", "/forbidden.html").access("permitAll()");
+                .antMatchers("/st/showLogin", "/js/**", "/css/**", "/plugins/**", "/images/**", "/st/loginFail", "/forbidden.html").access("permitAll()");
                 // .antMatchers("/logout.html").access("hasAnyRole('abfc')")
 
                 /**
@@ -119,8 +119,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 // .anyRequest().authenticated(); // 剩下的所有的请求url都需要认证才能访问
 
 
-        http.csrf() // csrf防护
-                .disable(); // 关闭
+//        http.csrf() // csrf防护
+//                .disable(); // 关闭
+        /**
+         * csrf防护：不管是不是跨站请求，我都拦截，要求必须携带_csrf,_csrf的值是默认生成在_csrf.token里
+         *
+         */
 
 
 
