@@ -55,7 +55,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 
                 // 配置访问token的有效期
                 .accessTokenValiditySeconds(3600)
-                // 配置redirect_uri,用于授权成功后跳转
+                // 配置redirect_uri,用于授权成功后跳转，密码模式可以不配
                 .redirectUris("https://www.jd.com")
 
                 // 配置申请的权限范围
@@ -76,5 +76,25 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
      *    设置token的有效期
      *    设置有效范围
      *    设置授权模式，可以多个并存
+     *
+     * 测试：
+     * 1、授权码模式：
+     *     请求http://localhost:8080/oauth/authorize?response_type=code&client_id=admin&redirect_uri=https://www.jd.com&scope=all,response_type表示返回值类型，其他的都是配置的
+     *     获取到https://www.jd.com/?code=15geVi,code就是授权码
+     *
+     *     用授权码去换token令牌，请求地址http://localhost:8080/oauth/token,post请求，Authorization选择basic auth，username和password填写配置的client-id和secret
+     *              然后Body里面选择x-www-form-urlencoded,填写请求参数grant_type=authorization_code,code=15geVi,client-id=admin(client-id)，redirect_uri=https://www.jd.com(配置的地址)，scope=all(配置的范围)
+     *
+     *     请求之后返回access_token，重点关注返回值的access_token和token_type
+     *
+     *     根据token去访问资源服务器中收到保护的资源，Authorization选择token_type对应的模式，token中填写access_token然后请求
+     *
+     * 2、密码模式：
+     *    直接post请求http://localhost:8080/oauth/token，Authorization选择basic auth，username和password填写配置的client-id和secret
+     *      然后Body里面选择x-www-form-urlencoded,填写请求参数grant_type=password,username=登录的用户名,password=登录的用户密码，scope=all(配置的范围)
+     *
+     *    请求之后返回access_token，重点关注返回值的access_token和token_type
+     *
+     *    根据token去访问资源服务器中收到保护的资源，Authorization选择token_type对应的模式，token中填写access_token然后请求
      */
 }
