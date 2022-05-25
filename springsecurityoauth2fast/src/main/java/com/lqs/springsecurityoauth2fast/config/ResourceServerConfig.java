@@ -16,9 +16,9 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .anyRequest().authenticated()
+                .anyRequest().authenticated() // 所有页面都要登录
                 .and()
-                .requestMatchers()
-                .antMatchers("/user/**") ;
+                .requestMatchers() // 匹配需要保护的资源
+                .antMatchers("/user/**"); // /user下面的所有资源收到保护
     }
 }
