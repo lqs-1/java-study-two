@@ -11,12 +11,20 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * @do : springSecurity配置类
  */
 @Configuration
-@EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        http.formLogin()
+                .loginPage("/login.html")
+                .loginProcessingUrl("/login")
+                .defaultSuccessUrl("/main.html");
 
+        http.authorizeRequests()
+                        .antMatchers("/login.html", "/register.html", "/user/register", "/css/**", "/js/**", "/plugins/**").access("permitAll()")
+                        .anyRequest().authenticated();
+
+        http.csrf().disable();
     }
 }
