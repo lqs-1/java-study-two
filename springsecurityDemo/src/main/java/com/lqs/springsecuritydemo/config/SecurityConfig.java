@@ -2,7 +2,6 @@ package com.lqs.springsecuritydemo.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 /**
@@ -17,12 +16,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.formLogin()
-                .loginPage("/login.html")
+                .loginPage("/user/loginPage")
                 .loginProcessingUrl("/login")
-                .defaultSuccessUrl("/main.html");
+                .defaultSuccessUrl("/user/index");
 
         http.authorizeRequests()
-                        .antMatchers("/login.html", "/register.html", "/user/register", "/css/**", "/js/**", "/plugins/**").access("permitAll()")
+                        .antMatchers("/user/loginPage", "/user/register", "/user/register", "/css/**", "/js/**", "/plugins/**").access("permitAll()")
                         .anyRequest().authenticated();
 
         http.csrf().disable();

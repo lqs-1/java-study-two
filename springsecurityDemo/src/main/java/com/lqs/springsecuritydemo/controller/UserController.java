@@ -23,6 +23,30 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    /**
+     * 自定义的登录页面
+     * @return
+     */
+    @GetMapping("loginPage")
+    public String loginPage(){
+        return "login";
+    }
+
+    /**
+     * 获取注册页面
+     * @return
+     */
+    @GetMapping("register")
+    public String registerPage(){
+        return "register";
+    }
+
+
+    @GetMapping("index")
+    public String index(){
+        return "main";
+    }
+
 
     @PostMapping("register")
     public String register(@RequestParam("username") String username, @RequestParam("password") String password){

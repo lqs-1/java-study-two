@@ -179,7 +179,7 @@ $(function() {
 });
 //获取当前项目的名称
 function getProjectPath() {
-    //获取主机地址之后的目录，如： cloudlibrary/admin/books.jsp
+    //获取主机地址之后的目录，如： cloudlibrary/admin/books.html
     var pathName = window.document.location.pathname;
     //获取带"/"的项目名，如：/cloudlibrary
     var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
