@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="356422d3-157f-4a68-bfd3-ad28372f5b2b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lqs/springsecuritydemo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lqs/springsecuritydemo/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lqs/springsecuritydemo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lqs/springsecuritydemo/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/book_borrowed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/book_borrowed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/book_modal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/book_modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/books.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lqs/springsecuritydemo/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lqs/springsecuritydemo/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lqs/springsecuritydemo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lqs/springsecuritydemo/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/book_borrowed.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/book_modal.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/books.jsp" beforeDir="false" />
-    </list>
+    <list default="true" id="356422d3-157f-4a68-bfd3-ad28372f5b2b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lqs/UserData/mall/mall-parent&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5a24ee14ae68948a6208388e7c92c1cd&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;/home/lqs/UserData/page/springsecurityDemo/src/main/resources/templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/lqs/下载/book200103",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "5a24ee14ae68948a6208388e7c92c1cd",
+    "two.files.diff.last.used.folder": "/home/lqs/UserData/page/springsecurityDemo/src/main/resources/templates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
@@ -105,7 +86,10 @@
       <workItem from="1653534269953" duration="2110000" />
       <workItem from="1653536407157" duration="7561000" />
       <workItem from="1653546607647" duration="294000" />
-      <workItem from="1653547146811" duration="1479000" />
+      <workItem from="1653547146811" duration="1633000" />
+      <workItem from="1653551947311" duration="117000" />
+      <workItem from="1653552828776" duration="145000" />
+      <workItem from="1653618377251" duration="171000" />
     </task>
     <servers />
   </component>
