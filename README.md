@@ -338,3 +338,28 @@ public interface GoodsFeignServer {
 
 #### 被调用的工程啥都不用干等着被调用就行了
 
+
+### 玩玩配置中心？
+
+如果您使用的北极星配置中心和注册中心是同一套北极星集群，则只需配置 spring.cloud.polaris.address 即可。
+
+如果您部署了两套北极星集群，分别用于注册中心和配置中心，则 spring.cloud.polaris.address 用于指定注册中心集群的地址，spring.cloud.polaris.config.address 用于指定配置中心的地址。
+
+如下所示：
+```java
+spring:
+  application:
+    name: ${application.name}
+  cloud:
+    polaris:
+      address: grpc://${修改为第一步部署的 Polaris 服务地址}:8091 # 必填
+      namespace: default # 全局 namespace 参数
+      config:
+        address: grpc://${独立的配置中心}:8093 # 选填，只有在配置中心和注册中心是两个不同的地址时才需要配置
+        auto-refresh: true # 选填，当配置发布后，动态刷新 Spring 上下文，默认值为 true面
+        groups:
+            - name: ${spring.application.name} # 选填，注入自定义配置的配置分组
+              files: [ "config/application.properties", "config/bootstrap.yml" ] # 注入自定义配置文件列表，当 key 冲突时，排在前面的配置文件优先级高于后面
+```
+
+> 推荐的最佳实践是在北极星管控端创建一个名为当前应用名的配置分组,如果服务注册和配置管理要同时使用那么只能都写在bootstrap.yml文件中

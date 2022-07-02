@@ -17,7 +17,7 @@ service:
   owners: "Polaris"
   ctime: "2022-07-02 13:34:53"
   mtime: "2022-07-02 13:34:53"
-  revision: "3497c4095ef8c1cf311cbe7818b338256a263107"
+  revision: "1896c3955bbb29bd18d62a12ad55f9a5e2942307"
   platform_id: ""
 instances:
 - id: "5710b0d1271d1800d2f34584ade7db7b035a3afc"
@@ -36,6 +36,6 @@ instances:
   location: {}
   metadata:
     protocol: "http"
-  mtime: "2022-07-02 15:47:01"
-  revision: "5d93cdf33a04429abd95309b128a2f4d"
+  mtime: "2022-07-02 16:17:49"
+  revision: "ceb93e42bdd24953893b49a5182bc66a"
   enableHealthCheck: true

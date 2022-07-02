@@ -1,10 +1,1 @@
-spring:
-  application:
-    # 服务名称
-    name: googs
-  cloud:
-    polaris:
-      # polaris地址
-      address: grpc://localhost:8091
-      # 命名空间选择
-      namespace: default
+

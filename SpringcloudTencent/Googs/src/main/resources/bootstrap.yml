@@ -1,0 +1,17 @@
+
+
+spring:
+  application:
+    # 服务名称
+    name: googs
+  cloud:
+    polaris:
+      # polaris地址
+      address: grpc://localhost:8091
+      # 命名空间选择
+      namespace: default
+
+      config:
+        groups:
+        - name: googs # 选填，注入自定义配置的配置分组
+          files: [ "config/constant.yaml" ] # 注入自定义配置文件列表，当 key 冲突时，排在前面的配置文件优先级高于后面

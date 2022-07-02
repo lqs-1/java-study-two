@@ -2,6 +2,7 @@ package com.lqs.googs.controller;
 
 import com.lqs.common.to.RequestTo;
 import com.lqs.common.utils.R;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -14,9 +15,14 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("goods")
 public class GoodsController {
 
+    @Value("${constant.username}")
+    private String username;
+    @Value("${constant.password}")
+    private String password;
+
     @GetMapping("goods")
     public R getGoods(){
-        return R.ok().put("goods", "haha_goods");
+        return R.ok().put("goods", "haha_goods").put("username", username).put("password", password);
     }
     @GetMapping("local")
     public R local(){
