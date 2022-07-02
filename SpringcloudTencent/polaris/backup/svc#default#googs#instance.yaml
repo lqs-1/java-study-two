@@ -1,0 +1,41 @@
+---
+code: 200000
+info: "execute success"
+type: "INSTANCE"
+service:
+  name: "googs"
+  namespace: "default"
+  metadata:
+    internal-auto-created: "true"
+  ports: ""
+  business: ""
+  department: ""
+  cmdb_mod1: ""
+  cmdb_mod2: ""
+  cmdb_mod3: ""
+  comment: ""
+  owners: "Polaris"
+  ctime: "2022-07-02 12:36:42"
+  mtime: "2022-07-02 12:36:42"
+  revision: "87ced7ae012b13ba3905dfe81f9ce14742f72416"
+  platform_id: ""
+instances:
+- id: "e01973b4168b8b17f9bbf3152275023e50324fc0"
+  service: "googs"
+  namespace: "default"
+  host: "192.168.1.102"
+  port: 10000
+  protocol: "http"
+  weight: 100
+  healthCheck:
+    type: "HEARTBEAT"
+    heartbeat:
+      ttl: 5
+  healthy: true
+  isolate: false
+  location: {}
+  metadata:
+    protocol: "http"
+  mtime: "2022-07-02 15:46:49"
+  revision: "c7ba28d5ec524e44b6a8a1e059fb41eb"
+  enableHealthCheck: true

@@ -1,0 +1,38 @@
+spring:
+  application:
+    # 服务名称
+    name: gateway
+  cloud:
+    polaris:
+      # polaris地址
+      address: grpc://localhost:8091
+      # 命名空间选择
+      namespace: default
+    # 网关
+    gateway:
+      routes:
+        # goods
+        - id: goods_router
+          uri: lb://googs
+          predicates:
+            - Path=/goods/**
+          filters:
+              - RewritePath=(?<segment>/?.*),/$\{segment}
+
+
+        # user
+        - id: goods_router
+          uri: lb://user
+          predicates:
+            - Path=/user/**
+          filters:
+              - RewritePath=(?<segment>/?.*),/$\{segment}
+
+# 对于请求路径 /red/blue，当前的配置在请求到到达前会被重写为 /blue，由于YAML的语法问题，$符号后面应该加上\
+
+# 在解释正则表达式前，我们需要学习一下java正则表达式分组的两个概念：
+# 命名分组：(?<name>capturing text)
+# 将匹配的子字符串捕获到一个组名称或编号名称中，在获得匹配结果时，可通过分组名进行获取。例如这里的示例，就是将 “capturing text” 捕获到名称为 “name” 的组中
+# 引用捕获文本：${name}
+# 将名称为name的命名分组所匹配到的文本内容替换到此处
+# RewritePath=(?<segment>/?.*),/$\{segment}就是表示将匹配到的路径按照"/?.*"正则表达式提取出来，并且把提取出来的东西去个名字"segment","$\{segment}"就是使用提取出来的东西

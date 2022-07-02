@@ -1,0 +1,41 @@
+---
+code: 200000
+info: "execute success"
+type: "INSTANCE"
+service:
+  name: "user"
+  namespace: "default"
+  metadata:
+    internal-auto-created: "true"
+  ports: ""
+  business: ""
+  department: ""
+  cmdb_mod1: ""
+  cmdb_mod2: ""
+  cmdb_mod3: ""
+  comment: ""
+  owners: "Polaris"
+  ctime: "2022-07-02 13:34:53"
+  mtime: "2022-07-02 13:34:53"
+  revision: "3497c4095ef8c1cf311cbe7818b338256a263107"
+  platform_id: ""
+instances:
+- id: "5710b0d1271d1800d2f34584ade7db7b035a3afc"
+  service: "user"
+  namespace: "default"
+  host: "192.168.1.102"
+  port: 10001
+  protocol: "http"
+  weight: 100
+  healthCheck:
+    type: "HEARTBEAT"
+    heartbeat:
+      ttl: 5
+  healthy: true
+  isolate: false
+  location: {}
+  metadata:
+    protocol: "http"
+  mtime: "2022-07-02 15:47:01"
+  revision: "5d93cdf33a04429abd95309b128a2f4d"
+  enableHealthCheck: true

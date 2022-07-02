@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>com.lqs</groupId>
-    <artifactId>Googs</artifactId>
+    <artifactId>User</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -22,7 +22,6 @@
     </properties>
 
     <dependencies>
-
         <!--        springboot_test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,7 +40,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
-
 
         <dependency>
             <groupId>com.lqs</groupId>
@@ -63,7 +61,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
     <build>
         <plugins>

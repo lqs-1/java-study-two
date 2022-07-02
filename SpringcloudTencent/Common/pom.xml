@@ -4,38 +4,17 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-
     <groupId>com.lqs</groupId>
     <artifactId>Common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <java.version>1.8</java.version>
-        <!--        springcloud的版本-->
-        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
         <!--        springcloudtencent的版本-->
         <spring-cloud-tencent.version>1.5.3-Hoxton.SR9</spring-cloud-tencent.version>
     </properties>
 
     <dependencies>
-        <!--        服务之间的调用服务-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-
-        <!--        springboot_test-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <!--        springbootweb-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
 
         <!--        服务注册发现-->
         <dependency>
@@ -70,14 +49,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--        springcloud依赖-->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <!--            springcloudtencent依赖-->
             <dependency>
                 <groupId>com.tencent.cloud</groupId>

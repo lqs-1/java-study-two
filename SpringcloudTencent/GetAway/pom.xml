@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>com.lqs</groupId>
-    <artifactId>Googs</artifactId>
+    <artifactId>GetAway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -22,31 +22,21 @@
     </properties>
 
     <dependencies>
-
-        <!--        springboot_test-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <!--        springbootweb-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!--        服务之间的调用服务-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-
-
         <dependency>
             <groupId>com.lqs</groupId>
             <artifactId>Common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--        网关-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+        </dependency>
+        <!--       spring_test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -63,7 +53,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
     <build>
         <plugins>
