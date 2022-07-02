@@ -1,23 +1,14 @@
-### SpringCloudTencent学习
-##### [SpringCloudTencent项目地址](https://github.com/Tencent/spring-cloud-tencent)
-##### [Polaris北极星服务注册项目地址](https://github.com/PolarisMesh)
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-##### [Polaris官网](https://polarismesh.cn)
+    <modelVersion>4.0.0</modelVersion>
 
-### SpringCloudTencent项目搭建
-> 第一步创建父工程，用于管理下面所有的微服务,普通maven工程就可以了
-```java
-<!--父工程打包pom-->
-    <packaging>pom</packaging>
 
-<!--    模块集中管理-->
-    <modules>
-        <module>Googs</module>
-        <module>Common</module>
-    </modules>
-```
-> 第二步创建共用工程common,普通maven工程，放工具包和共用坐标
-```java
+    <groupId>com.lqs</groupId>
+    <artifactId>Common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
     <properties>
         <java.version>1.8</java.version>
         <!--        springcloud的版本-->
@@ -68,6 +59,15 @@
 
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencyManagement>
         <dependencies>
             <!--        springcloud依赖-->
@@ -88,34 +88,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-```
-> 第三步创建各个为服务工程，springboot项目并且依赖共用工程，并做服务注册配置
-```java
-    <!--请注意这里有个坑，springboot，spring还有springcloud和springcloudtencent依赖的版本号要有所对应，可以去u官网查看-->
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.2.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.lqs</groupId>
-            <artifactId>Common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
-```
-```java
-spring:
-  application:
-    # 服务名称
-    name: googs
-  cloud:
-    polaris:
-      # polaris地址
-      address: grpc://localhost:8091
-      # 命名空间选择
-      namespace: default
-```
+</project>

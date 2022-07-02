@@ -1,10 +1,10 @@
-package com.example.springcloudtencent;
+package com.lqs.googs;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringcloudtencentApplicationTests {
+class GoogsApplicationTests {
 
     @Test
     void contextLoads() {
